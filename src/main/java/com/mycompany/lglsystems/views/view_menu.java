@@ -4,6 +4,7 @@
  */
 package com.br.views;
 
+import com.mycompany.lglsystems.views.view_login;
 import java.awt.Graphics;
 import java.awt.Image;
 import javax.swing.ImageIcon;

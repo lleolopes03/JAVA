@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package com.br.views;
+package com.mycompany.lglsystems.views;
 
 import com.br.dao.dao_funcionario;
 import javax.swing.JOptionPane;
@@ -202,10 +202,8 @@ public class view_login extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new view_login().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new view_login().setVisible(true);
         });
     }
 

@@ -465,6 +465,7 @@ public class view_vendas extends javax.swing.JFrame {
 
     private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
         // TODO add your handling code here:
+         this.setExtendedState(this.MAXIMIZED_BOTH);
         Date agora = new Date();
         SimpleDateFormat dataBr = new SimpleDateFormat("dd/MM/yyyy");
         String dataformatada = dataBr.format(agora);
